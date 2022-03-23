@@ -8,8 +8,11 @@ body{
     font-family: "Fredoka", sans-serif;
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #0072aa, #6a00ff);
+       /* The image used */
+  background-image: url(/wp8154196-math-equations-wallpapers.jpg);
+    backdrop-filter: blur(5px);
 }
+
 
 .calculator-grid {
     display: grid;
@@ -25,11 +28,11 @@ body{
     font-size: 2rem;
     border: 0.5px solid rgba(0, 0, 0, 0.275);
     outline: none;
-    background-color: rgba(195, 169, 255, 0.385);
+    background-color: rgba(107, 101, 121, 0.385);
 }
 
 .calculator-grid > button:hover{
-    background-color: rgba(195, 169, 255, 0.755);
+    background-color: rgba(51, 50, 55, 0.755);
 }
 
 .span-two{
